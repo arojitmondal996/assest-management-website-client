@@ -36,7 +36,7 @@ export default function Profile() {
         aria-expanded={open ? "true" : undefined}
         onClick={handleClick}>
         <Avatar
-          alt="Rashadul Islam"
+          alt="Arojit Mondal"
           src="/profile.jpg"
           sx={{ width: 25, height: 25 }}
         />
@@ -49,7 +49,7 @@ export default function Profile() {
         MenuListProps={{
           "aria-labelledby": "basic-button",
         }}>
-        <MenuItem onClick={handleClose}>Rashadul Islam</MenuItem>
+        <MenuItem onClick={handleClose}>Arojit Mondal</MenuItem>
         <Divider />
         <MenuItem onClick={handleClose}>Logout</MenuItem>
       </Menu>
